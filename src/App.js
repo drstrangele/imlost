@@ -29,7 +29,7 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={coffee} className="App-logo" alt="logo" />
-          <h2>Im lost...what the heck is that spinny thing doing?</h2>
+          <h2>Im lost...drink some <span className="coffee">COFFEE</span>!</h2>
         </div>
         <SearchBar onSearch={this.handleSearch.bind(this)}/>
         <GiphyList giphys={this.state.giphys} />
