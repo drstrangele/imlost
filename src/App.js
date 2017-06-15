@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import coffee from './coffee-mug.png';
 import './App.css';
 import GiphyList from './components/GiphyList';
 import SearchBar from './components/SearchBar';
@@ -28,7 +28,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={coffee} className="App-logo" alt="logo" />
           <h2>Im lost...what the heck is that spinny thing doing?</h2>
         </div>
         <SearchBar onSearch={this.handleSearch.bind(this)}/>
