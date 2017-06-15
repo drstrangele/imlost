@@ -22,7 +22,7 @@ class GiphyItem extends Component {
           <li>
             <img onClick={this.addComment.bind(this)} src={this.props.image} alt="" />
             {
-              this.state.comment.length > 0 ? <h1>{this.state.comment}</h1> : <h2>text is like...</h2>
+              this.state.comment.length > 0 ? <h1>{this.state.comment}</h1> : <h2>these giphys are so...</h2>
             }
           </li>
         );
